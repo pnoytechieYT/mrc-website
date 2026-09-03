@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://www.maribankreferralcode.xyz",
+	site: "http://pnoytechieyt.github.io/mrc-website/",
 	vite: {
 		plugins: [tailwindcss()],
 	},
