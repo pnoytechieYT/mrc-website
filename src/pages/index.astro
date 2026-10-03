@@ -10,19 +10,21 @@ import DownloadSection from "@/components/sections/DownloadSection.astro";
 <App
 	title={siteData.referral.title}
 	description={siteData.referral.description}>
-	<div class="w-full h-64 md:h-80 lg:h-96 overflow-hidden">
+	<div class="w-full h-40 md:h-80 lg:h-96 overflow-hidden">
 		<Image
-			src={"/images/banner-2.webp"}
+			src={"/images/banner-3.webp"}
 			alt="MariBank Referral Banner"
 			width={1200}
-			height={800}
+			height={400}
 			class="w-full h-full object-cover mask-[linear-gradient(to_bottom,black_40%,transparent)]"
 		/>
 	</div>
 
-	<div class="max-w-7xl mx-auto px-4">
-		<StepSection siteData={siteData} />
+	<div class="-mt-12">
+		<div class="max-w-7xl mx-auto px-4">
+			<StepSection siteData={siteData} />
 
-		<DownloadSection />
+			<DownloadSection />
+		</div>
 	</div>
 </App>
